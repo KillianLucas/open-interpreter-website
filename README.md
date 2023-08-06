@@ -1,2 +1,1 @@
-# open-interpreter-website
-Website for the Open Interpreter project.
+Website for the Open Interpreter project, made with Tailwind CSS.
