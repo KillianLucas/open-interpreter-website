@@ -530,6 +530,22 @@ video {
   position: fixed
 }
 
+.absolute{
+  position: absolute
+}
+
+.relative{
+  position: relative
+}
+
+.bottom-0{
+  bottom: 0px
+}
+
+.right-0{
+  right: 0px
+}
+
 .top-0{
   top: 0px
 }
@@ -562,6 +578,10 @@ video {
   height: 2rem
 }
 
+.h-auto{
+  height: auto
+}
+
 .h-full{
   height: 100%
 }
@@ -580,6 +600,10 @@ video {
 
 .w-8{
   width: 2rem
+}
+
+.w-auto{
+  width: auto
 }
 
 .w-full{
