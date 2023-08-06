@@ -590,10 +590,6 @@ video {
   max-height: 24rem
 }
 
-.min-h-screen{
-  min-height: 100vh
-}
-
 .w-5{
   width: 1.25rem
 }
@@ -700,6 +696,10 @@ video {
   padding-bottom: 1.5rem
 }
 
+.pb-32{
+  padding-bottom: 8rem
+}
+
 .text-7xl{
   font-size: 4.5rem;
   line-height: 1
@@ -790,6 +790,10 @@ video {
   .sm\:px-12{
     padding-left: 3rem;
     padding-right: 3rem
+  }
+
+  .sm\:pb-0{
+    padding-bottom: 0px
   }
 }
 
