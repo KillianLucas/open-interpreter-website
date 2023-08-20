@@ -562,6 +562,10 @@ video {
   margin-bottom: 1.5rem
 }
 
+.block{
+  display: block
+}
+
 .flex{
   display: flex
 }
@@ -696,8 +700,8 @@ video {
   padding-bottom: 1.5rem
 }
 
-.pb-32{
-  padding-bottom: 8rem
+.pb-24{
+  padding-bottom: 6rem
 }
 
 .text-7xl{
@@ -719,9 +723,8 @@ video {
   font-weight: 300
 }
 
-.underline{
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline
+.font-semibold{
+  font-weight: 600
 }
 
 .opacity-20{
@@ -776,11 +779,6 @@ video {
           text-decoration-line: underline
 }
 
-.hover\:no-underline:hover{
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none
-}
-
 @media (prefers-color-scheme: dark){
   .dark\:invert{
     --tw-invert: invert(100%);
@@ -789,6 +787,14 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:block{
+    display: block
+  }
+
+  .sm\:hidden{
+    display: none
+  }
+
   .sm\:w-auto{
     width: auto
   }
@@ -822,6 +828,10 @@ video {
 
   .md\:max-w-4xl{
     max-width: 56rem
+  }
+
+  .md\:max-w-md{
+    max-width: 28rem
   }
 
   .md\:flex-row{
