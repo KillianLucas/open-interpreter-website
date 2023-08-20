@@ -719,6 +719,11 @@ video {
   font-weight: 300
 }
 
+.underline{
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline
+}
+
 .opacity-20{
   opacity: 0.2
 }
@@ -769,6 +774,11 @@ video {
 .hover\:underline:hover{
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline
+}
+
+.hover\:no-underline:hover{
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none
 }
 
 @media (prefers-color-scheme: dark){
