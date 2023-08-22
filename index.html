@@ -29,9 +29,11 @@
         posthog.init('phc_mcjInG566yH9YctTDFHbHjmTJp0CxWLN6asoBBeehnq',{api_host:'https://app.posthog.com'})
 
         posthog.onFeatureFlags(function() {
-            if (posthog.getFeatureFlag('copy')  == '1') {
+            if (posthog.getFeatureFlag('hero-copy')  == 'control') {
                  let text = `...`
-            }
+            } else if (posthog.getFeatureFlag('hero-copy')  == 'test_group_1') {
+                 let text = `...`
+            } // ...
 
             // Inject text into #hero
             document.querySelector("#hero").insertAdjacentHTML("afterbegin", text);
