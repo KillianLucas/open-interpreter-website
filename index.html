@@ -44,8 +44,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="relative bg-white selection:bg-black selection:text-white dark:invert">
-      <img src="/assets/bg.jpg" alt="Background graphic sketch" class="pointer-events-none absolute right-0 top-0 max-h-96 -rotate-90 opacity-20 mix-blend-darken md:h-3/4 md:max-h-max lg:bottom-0 lg:top-auto lg:h-[80%] lg:rotate-0 lg:opacity-100" />
+    <div class="relative selection:bg-black selection:text-white dark:invert">
+      <video class="absolute left-1/2 top-1/2 -z-10 min-h-full min-w-full -translate-x-1/2 -translate-y-1/2 transform object-cover opacity-[14%]" autoplay loop muted playsinline poster="https://openinterpreter.com/assets/demo_poster.jpg">
+        <source src="https://openinterpreter.com/assets/demo_preview.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
       <nav class="fixed top-0 z-10 flex w-full items-center justify-between px-6 py-6 sm:px-12">
         <div class="flex items-center space-x-4">
           <div class="h-8 w-8 rounded-full bg-black saturate-200"></div>
@@ -59,7 +62,7 @@
       <section class="h-screen pb-24 sm:pb-0">
         <div id="hero" class="flex h-full flex-col justify-end p-6 sm:p-12">
           <div class="mb-4 w-64 text-7xl font-light sm:w-auto md:max-w-4xl">
-            <div>A new way<br>to use computers</div>
+            <div>A new way<br />to use computers</div>
           </div>
           <span class="mb-6 text-xl font-light">Open Interpreter lets LLMs run code on your computer to complete tasks.</span>
           <div class="flex items-center space-x-6 text-lg">
