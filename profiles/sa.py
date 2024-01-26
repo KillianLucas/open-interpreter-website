@@ -11,3 +11,5 @@ When the user has completed the first item, remove it from tasks by running `tas
 
 
 """.strip()
+
+interpreter.computer.run("python", "tasks = []")
