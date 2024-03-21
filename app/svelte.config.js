@@ -5,6 +5,10 @@ const config = {
   kit: {
     adapter: adapter(),
   },
+  paths: {
+    base:
+      process.env.NODE_ENV === "production" ? "/open-interpreter-website" : "",
+  },
   alias: {
     $components: "./src/components",
     $styles: "./src/styles",

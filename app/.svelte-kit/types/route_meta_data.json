@@ -1,0 +1,19 @@
+{
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/01-brutalist": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/01-heavy": [
+		"src/routes/+layout.ts"
+	],
+	"/01OS": [
+		"src/routes/+layout.ts"
+	],
+	"/01": [
+		"src/routes/+layout.ts"
+	]
+}
