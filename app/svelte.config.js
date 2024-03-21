@@ -1,13 +1,14 @@
 import adapter from "@sveltejs/adapter-static";
+import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
     adapter: adapter(),
   },
+  preprocess: vitePreprocess(),
   paths: {
-    base:
-      process.env.NODE_ENV === "production" ? "/open-interpreter-website" : "",
+    base: process.argv.includes("dev") ? "" : "/WEBTEST1",
   },
   alias: {
     $components: "./src/components",
